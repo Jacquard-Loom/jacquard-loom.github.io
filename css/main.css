@@ -20,9 +20,21 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .75px;
 }
 
+a {
+  border-bottom: 3px solid  powderblue;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  background-color: powderblue;
+  border-top: 2px solid  powderblue;
+  text-decoration: none;
+}
+
 header, main {
   margin: 0 auto;
-  width: 800px;
+  width: 720px;
 }
 
 header {
@@ -40,7 +52,7 @@ h2 {
 p {
   letter-spacing: .75px;
   line-height: 1.45em;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 section {
