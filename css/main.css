@@ -34,7 +34,8 @@ a:hover, a:focus {
 
 header, main {
   margin: 0 auto;
-  width: 720px;
+  max-width: 720px;
+  width: 90%;
 }
 
 header {
